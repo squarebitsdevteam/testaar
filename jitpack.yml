@@ -1,6 +1,6 @@
 install: 
   - FILE="-Dfile=mylibrary-release.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.github.devnagritranslationsdk -DartifactId=translations -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -Dpackaging=aar -DpomFile=pom.xml
 jdk:
   - openjdk11
 before_install:
