@@ -13,31 +13,31 @@
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>2.9.0</version>
-      <scope>implementation</scope>
+      <scope>compile</scope>
     </dependency>
       <dependency>
       <groupId>androidx.room</groupId>
       <artifactId>room-runtime</artifactId>
       <version>2.4.2</version>
-      <scope>implementation</scope>
+      <scope>compile</scope>
     </dependency>
      <dependency>
       <groupId>androidx.room</groupId>
       <artifactId>room-compiler</artifactId>
       <version>2.4.2</version>
-      <scope>kapt</scope>
+      <scope>compile</scope>
     </dependency>
      <dependency>
       <groupId>androidx.room</groupId>
       <artifactId>room-ktx</artifactId>
       <version>2.4.2</version>
-      <scope>implementation</scope>
+      <scope>compile</scope>
     </dependency>
       <dependency>
       <groupId>org.jetbrains.kotlinx</groupId>
       <artifactId>kotlinx-coroutines-android</artifactId>
       <version>1.5.2</version>
-      <scope>implementation</scope>
+      <scope>compile</scope>
     </dependency>
    </dependencies>
 
