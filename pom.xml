@@ -8,8 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.squarebitsdevteam</groupId>
   <artifactId>translations-aar</artifactId>
-  <version>1.8</version>
-  <packaging>aar</packaging>
+  <version>1.9</version>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
