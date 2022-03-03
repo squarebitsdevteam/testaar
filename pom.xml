@@ -8,13 +8,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.squarebitsdevteam</groupId>
   <artifactId>translations-aar</artifactId>
-  <version>2.1</version>
+  <version>1.0</version>
+ <!-- <packaging>aar</packaging>-->
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib-jdk8</artifactId>
-      <version>1.6.10</version>
-      <scope>compile</scope>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.4.0</version>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.core</groupId>
@@ -55,9 +56,8 @@
     <dependency>
       <groupId>org.jetbrains.kotlinx</groupId>
       <artifactId>kotlinx-coroutines-android</artifactId>
-      <version>1.5.2</version>
+      <version>1.6.0</version>
       <scope>runtime</scope>
     </dependency>
-  
   </dependencies>
 </project>
