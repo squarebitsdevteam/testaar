@@ -1,5 +1,5 @@
 install: 
-  - FILE="-Dfile=mylibrary-release" 
+  - FILE="-Dfile=mylibrary-release.aar" 
   - mvn install:install-file $FILE -DgroupId=com.github.squarebitsdevteam -DartifactId=translations-aar -Dversion=2.1.8 -Dpackaging=aar -DpomFile=pom.xml
 jdk:
   - openjdk11
